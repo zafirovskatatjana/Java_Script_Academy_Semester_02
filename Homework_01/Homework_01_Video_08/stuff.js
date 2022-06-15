@@ -9,13 +9,13 @@ var adder = function(a, b){
 var pi = 3.142;
 
 // -> 01 Nacin
-module.exports.counter = counter;
-module.exports.adder = adder;
-module.exports.pi = pi;
+// module.exports.counter = counter;
+// module.exports.adder = adder;
+// module.exports.pi = pi;
 
 // -> 02, kako objekt
-// module.exports = {
-// 	counter: counter,
-// 	adder: adder,
-// 	pi: pi
-// }
+module.exports = {
+	counter: counter,
+	adder: adder,
+	pi: pi
+}
